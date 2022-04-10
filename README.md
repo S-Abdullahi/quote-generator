@@ -3,8 +3,7 @@ This project can generate more than 1600 quotes randomly at every click. I used 
 
 <h2>Tools</h2>
 <ul>
-  <li>HTML5<li>
-  <li>Tailwindcss<li>
-  <li>JavaScript<li>
-  
-  </ul>
+  <li>HTML5
+  <li>Tailwindcss
+  <li>JavaScript
+ </ul>
