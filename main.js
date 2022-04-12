@@ -2,7 +2,7 @@
 document.querySelector('#previous').addEventListener('click', previous)
 document.querySelector('#next').addEventListener('click', next)
 
-let textDisplay = document.querySelector('textarea')
+let textDisplay = document.querySelector('h3')
 let authorDisplay = document.querySelector('h4') 
 
 // declaration of array to contain the quotes
@@ -59,12 +59,3 @@ function next(){
     authorDisplay.innerText = quoteContainer[a].author
   }
 }
-
-// copy function
-document.querySelector('#copy').addEventListener('click', copyKey)
-
-function copyKey(){
-  document.querySelector("textarea").value;
-  document.execCommand('copy')
-}
-
