@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./public/output.css">
     <script src="https://kit.fontawesome.com/c31a3ebc2d.js" crossorigin="anonymous"></script>
 
-    <title>Qoute Generator</title>
+    <title>Quote Generator</title>
 </head>
 <body class="h-screen">
     <!-- main container -->
@@ -21,36 +21,32 @@
         </div>
 
         <!-- previous and next buttons -->
-        <div class="flex w-60 justify-between fixed mt-32">
+        <div class="cont">
+        <div class=" flex justify-between prev-con">
             <div>
                 
-                <i class="fa-solid fa-circle-arrow-left text-2xl text-green-500 cursor-pointe hover:text-green-300" id="previous"></i>
+                <i class="fa-solid fa-arrow-left-long text-2xl text-green-500 cursor-pointe hover:text-green-300" id="previous"></i>
  
             </div>
 
             <div>
-                <i class="fa-solid fa-circle-arrow-right text-2xl text-green-500 cursor-pointer hover:text-green-300" id="next"></i> 
+                <i class="fa-solid fa-arrow-right-long text-2xl text-green-500 cursor-pointer hover:text-green-300" id="next"></i> 
             </div>
         </div>
 
         <!-- quote container -->
-		<div class="flex flex-col justify-start items-start px-8 w-screen mx-10">
+		<div class="flex flex-col justify-start items-start px-8 mt-6 w-screen mx-10">
             
 
             <div class="flex flex-col items-center max-h-lg max-w-lg py-4 px-8 bg-white shadow-lg rounded-lg my-20 border-t-4 border-green-600">
                 <h3 class="font-serif text-sm lg:text-2xl text-center pb-2 leading-normal text-gray-600 " id="txt_copy">
-                    <p class="text-gray-400 text-sm md:text-2xl">Click on <i class="fa-solid fa-circle-arrow-right text-sm text-green-500"></i>  to generate new quotes and click on <i class="fa-solid fa-circle-arrow-left text-sm text-green-500"></i> to view previous quote</p>
+                    <p class="text-gray-400 text-sm md:text-2xl">Click on <i class="fa-solid fa-arrow-right-long text-sm text-green-500"></i>  to generate new quotes and click on <i class="fa-solid fa-arrow-left-long text-sm text-green-500"></i> to view previous quote</p>
                 </h3>
             <!-- Author name placement -->
 			<h4 class="text-sm font-medium text-green-500"></h4>
 		    </div>
-	
-            <!-- generate quote button -->
-            <!-- <div class='absolute mt-[550px]'>
-                <button class="font-mono text-xl bg-green-800 text-gray-200 w-52 h-16 rounded-lg hover:bg-green-700 mb-32 md:mb-72">Generate Quote</button>
-                <p class="text-gray-300 text-center">developed by S-Abdullahi</p>
-            </div> -->
-         </div>    
+         </div>  
+        </div>  
 	</div>
 
 
